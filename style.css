@@ -1,0 +1,17 @@
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdm3RHYj48W0pBYFsK07DjZnYugwlA2ZwhYA&usqp=CAU.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    opacity: 0.8;
+}
+#city-input, #weather-output {
+    max-width: 400px;
+    margin: 0 auto;
+}
+  
+.banner {
+    color : #FFD23F;
+    font-family: sans-serif;
+}
