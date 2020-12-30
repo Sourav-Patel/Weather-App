@@ -1,7 +1,7 @@
 let API_KEY = "ece4aee09117a33fe875e7ced805829e";
 
 getWeatherData = (city) => {
-    const URL = "http://api.openweathermap.org/data/2.5/weather";
+    const URL = "https://api.openweathermap.org/data/2.5/weather";
     const FULL_URL = `${URL}?q=${city}&appid=${API_KEY}&units=metric`
 
     const weatherPromise = fetch( FULL_URL);
